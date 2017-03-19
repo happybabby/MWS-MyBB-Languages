@@ -17,23 +17,23 @@
 * MyBB-Plugins.com immediatly.
 ****************************************************************************/
 
-$l['mydonations'] = "MyDonations";
-$l['mydonations_goal'] = "Goal";
-$l['mydonations_donation_goal'] = 'Donation Goal';
-$l['mydonations_donation_info'] = 'Hi! We\'re currently trying to reach {1} for the following reason:<br />{2}';
-$l['mydonations_donations'] = 'Donations';
-$l['mydonations_archived_donations'] = 'Archived Donations';
+$l['mydonations'] = "Мои пожертвования";
+$l['mydonations_goal'] = "Цель";
+$l['mydonations_donation_goal'] = 'Цель';
+$l['mydonations_donation_info'] = 'Привет! Мы пытаемся набрать {1} по следующей причине:<br />{2}';
+$l['mydonations_donations'] = 'Пожертвования';
+$l['mydonations_archived_donations'] = 'Архивные пожертвования';
 
-$l['mydonations_username'] = "Username";
-$l['mydonations_date'] = "Date";
-$l['mydonations_amount'] = "Amount";
+$l['mydonations_username'] = "Пользователь";
+$l['mydonations_date'] = "Дата";
+$l['mydonations_amount'] = "Сумма";
 
-$l['mydonations_list'] = 'List of Donations';
-$l['mydonations_goal_reached'] = '<strong>Goal has been reached</strong>';
-$l['mydonations_goal_current'] = 'We have received a total of {1} in donations towards our goal of {2}<br />';
-$l['mydonations_no_donations'] = 'No one has donated towards the current goal yet.';
+$l['mydonations_list'] = 'Список пожертвований';
+$l['mydonations_goal_reached'] = '<strong>Цель достигнута</strong>';
+$l['mydonations_goal_current'] = 'Нам удалость собрать {1} пожертвований из необходимой суммы в {2}<br />';
+$l['mydonations_no_donations'] = 'Никто ничего пока не пожертвовал.';
 
-$l['mydonations_min'] = 'Minimum amount accepted is {1}{2}';
+$l['mydonations_min'] = 'Минимальная допустимая сумма {1}{2}';
 
 
 ?>
