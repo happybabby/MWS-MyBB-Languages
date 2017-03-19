@@ -3,7 +3,7 @@
  *
  *	MyChatbox plugin (/inc/languages/english/mychatbox.lang.php)
  *	Author: MyBB-Plugins.com
- * 	Copyright: � 2015 MyBB-Plugins.com
+ * 	Copyright: © 2015 MyBB-Plugins.com
  *   
  *	Website: http://www.mybb-plugins.com
  *
@@ -17,29 +17,29 @@
 * MyBB-Plugins.com immediately.
 ****************************************************************************/
 
-$l['mychatbox'] = 'MyChatbox';
-$l['mychatbox_logs'] = 'Logs';
-$l['mychatbox_search'] = 'Search';
-$l['mychatbox_keywords'] = 'Keywords';
-$l['mychatbox_edit'] = 'Edit';
-$l['mychatbox_delete'] = 'Delete';
-$l['mychatbox_post'] = 'Post';
-$l['mychatbox_not_enough_points'] = 'Each message costs {1} and you do not have enough points to post one.';
-$l['mychatbox_no_messages'] = 'There are no messages to display.';
-$l['mychatbox_wait'] = 'You have to wait {1}s before posting again.';
+$l['mychatbox'] = 'Мой чат';
+$l['mychatbox_logs'] = 'Логи';
+$l['mychatbox_search'] = 'Поиск';
+$l['mychatbox_keywords'] = 'Ключевые слова';
+$l['mychatbox_edit'] = 'Изменить';
+$l['mychatbox_delete'] = 'Удалить';
+$l['mychatbox_post'] = 'Отправить';
+$l['mychatbox_not_enough_points'] = 'Каждое сообщение стоит {1} и у вас недостаточно очков для отправки.';
+$l['mychatbox_no_messages'] = 'Нет сообщений для отображения.';
+$l['mychatbox_wait'] = 'Вы должны подождать {1}с до отправки следующего сообщения.';
 
-$l['mychatbox_banned_message'] = 'You are currently banned from using the chatbox.';
+$l['mychatbox_banned_message'] = 'На данный момент вы заблокированы и не можете использовать чат.';
 
-$l['mychatbox_confirm_delete'] = 'Are you sure you want to delete the selected message?';
-$l['mychatbox_enter_new_message'] = 'Enter the new message';
+$l['mychatbox_confirm_delete'] = 'Вы уверены, что хотите удалить выбранные сообщения?';
+$l['mychatbox_enter_new_message'] = 'Введите новое сообщение';
 
-$l['mychatbox_invalid_command'] = 'You have entered an invalid command.';
-$l['mychatbox_no_permission'] = 'You do not have permission to do that.';
-$l['mychatbox_invalid_message'] = 'You have entered an invalid message.';
-$l['mychatbox_run_successfully'] = 'Command run successfully.';
-$l['mychatbox_posted_successfully'] = 'Message posted successfully.';
-$l['mychatbox_edited_successfully'] = 'Message edited successfully.';
-$l['mychatbox_deleted_successfully'] = 'Message deleted successfully.';
-$l['mychatbox_invalid_post'] = 'You have selected an invalid message.';
+$l['mychatbox_invalid_command'] = 'Вы ввели неверную команду.';
+$l['mychatbox_no_permission'] = 'У вас нет на это прав.';
+$l['mychatbox_invalid_message'] = 'Вы ввели неверное сообщение.';
+$l['mychatbox_run_successfully'] = 'Команда успешно выполнена.';
+$l['mychatbox_posted_successfully'] = 'Сообщение успешно оставлено.';
+$l['mychatbox_edited_successfully'] = 'Сообщение успешно изменено.';
+$l['mychatbox_deleted_successfully'] = 'Сообщение успешно удалено.';
+$l['mychatbox_invalid_post'] = 'Вы выбрали неверное сообщение.';
 
 ?>
