@@ -1,270 +1,307 @@
 <?php
-/**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
+/***************************************************************************
  *
- */
+ *   Mods &amp; Downloads plugin (/inc/languages/english/mydownloads.php)
+ *	 Author: Diogo Parrinha
+ *   Copyright: © 2009-2010 Diogo Parrinha
+ *   
+ *   !!!!!!!!!!!TRANSLATION IS NOT READY YET!!!!!!!!!!!
+ *
+ *   Website: http://www.mybb-plugins.com
+ *
+ *   Mods &amp; Downloads adds a downloads system to MyBB.
+ *
+ ***************************************************************************/
+ 
+/****************************************************************************
+* You are NOT authorized to share/re-distribute this plugin with ANYONE without my express permission.
+* You MUST NOT give credits to anyone besides me, Diogo Parrinha.
+* You MUST NOT remove the license file or any conditions/rules that you may find in the included PHP files.
+* The author is NOT responsible for any damaged caused by this plugin.
+* 
+* By downloading/installing this module you agree with the conditions stated above.
+****************************************************************************/
 
-$l['mydownloads'] = 'Мои загрузки';
-$l['mydownloads_no_categories'] = "В категориях ничего не найдено.";
-$l['mydownloads_no_sub_categories'] = "В подкатегориях ничего не найдено.";
-$l['mydownloads_categories'] = "Категории";
-$l['mydownloads_select_category'] = "Выберите категорию";
-$l['mydownloads_no_permissions'] = "У вас нет прав для доступа к этой странице.";
-$l['mydownloads_no_cid'] = "Неверная категория.";
-$l['mydownloads_no_did'] = "Неверная загрузка.";
-$l['mydownloads_no_downloads'] = "Загрузки не найдены";
-$l['mydownloads_download_points'] = "Очки";
-$l['mydownloads_download_price'] = "Цена";
-$l['mydownloads_download_name'] = "Имя";
-$l['mydownloads_download_preview'] = "Предпросмотр";
-$l['mydownloads_download_description'] = "Описание";
-$l['mydownloads_number_downloads'] = "Загрузки";
-$l['mydownloads_downloaded'] = "<strong>Загрузок:</strong> {1}";
-$l['mydownloads_viewed'] = "<br /><strong>Просмотров:</strong> {1}";
-$l['mydownloads_purchase'] = "Купить";
-$l['mydownloads_download'] = "Скачать";
-$l['mydownloads_not_enough_money'] = "У вас не хватает средств для совершения этой покупки.";
-$l['mydownloads_download_purchased'] = "Поздравляем с покупкой!";
-$l['mydownloads_download_purchased_title'] = "Куплено.";
-$l['mydownloads_default_license'] = "Необходимые требования для загрузки не указаны.";
-$l['mydownloads_your_money'] = "У вас есть";
-$l['mydownloads_closed'] = "Страница с загрузками временно закрыта";
-$l['mydownloads_downloads_number'] = "{1} загрузок";
-$l['mydownloads_your_rate'] = "Ваш рейтинг";
-$l['mydownloads_total_rate'] = "Средний рейтинг";
-$l['mydownloads_one_star'] = "1 звезда из 5";
-$l['mydownloads_two_stars'] = "2 звезды из 5";
-$l['mydownloads_three_stars'] = "3 звезды из 5";
-$l['mydownloads_four_stars'] = "3 звезды из 5";
-$l['mydownloads_five_stars'] = "5 звезды из 5";
-$l['mydownloads_download_rate'] = "Рейтинг";
-$l['mydownloads_na'] = "N/A";
-$l['mydownloads_download_image'] = "Скачать изображение";
-$l['mydownloads_purchase_image'] = "Купить изображение";
-$l['mydownloads_purchase_url'] = "Показать ссылку на скачивание";
-$l['mydownloads_delete_confirm'] = "Вы уверены, что хотите удалить этот комментарий?";
-$l['mydownloads_message'] = "Сообщение";
-$l['mydownloads_comment'] = "Оставьте комментарий";
-$l['mydownloads_submit_comment'] = "Подтверждение";
-$l['mydownloads_log_in_register'] = "Вы должны войти на сайт прежде, чем оставлять сообщения";
-$l['mydownloads_download_views'] = "Просмотры";
-$l['mydownloads_download_comments'] = "Комментарии";
-$l['mydownloads_download_delete_comment'] = "Удалить";
-$l['mydownloads_no_points_set'] = "Без очков";
-$l['mydownloads_no_price_set'] = "Без цены";
-$l['mydownloads_no_money'] = "Без денег";
-/*$l['mydownloads_download_creator'] = 'Creator';
-$l['mydownloads_download_creator_none'] = 'Автор не указан';*/
-$l['mydownloads_download_submitter'] = 'Автор:';
-//$l['mydownloads_creator_desc'] = 'Автор загрузки';
-$l['mydownloads_submitter_desc'] = 'Пользователь, загрузивший файл.';
-$l['mydownloads_version'] = 'Версия';
-$l['mydownloads_license'] = 'Лицензия';
+$l['myalerts_setting_mydownloads_new_comment'] = 'Receive alert when somebody comments your downloads?';
+$l['mydownloads'] = 'Mods &amp; Downloads';
+$l['mydownloads_active'] = '<strong>Active</strong>';
+$l['mydownloads_add'] = 'Add';
+$l['mydownloads_add_previews'] = 'Add Images';
+$l['mydownloads_add_previews_desc'] = 'Drag and drop images below to start the uploading process.';
+$l['mydownloads_all_categories'] = 'All Categories';
+$l['mydownloads_already_rated'] = "You have already rated this download.";
+$l['mydownloads_asc'] = 'asc';
+$l['mydownloads_being_updated'] = '<em>Being Updated</em>';
+$l['mydownloads_being_updated2'] = "<em>(Being Updated)</em>";
+$l['mydownloads_being_updated_error'] = 'This download has been updated is currently under approval, you cannot modify it until it has been approved or unapproved.';
+$l['mydownloads_being_updated_notice'] = 'This download has been edited and it is currently under approval, in the mean time, you can download the old files.';
 $l['mydownloads_by_user'] = '';
-$l['mydownloads_by_username'] = 'by <a href="{1}/{2}">{3}</a> at {4} on {5}';
-$l['mydownloads_confirm_delete'] = 'Подтвердите удаление комментария.<br /><form action="{1}/mydownloads/comment_download.php" method="post" ">
-					<input type="hidden" name="my_post_key" value="{2}" />
-					<input type="hidden" name="cid" value="{3}" />
-					<input type="hidden" name="action" value="delete_comment" />
-					<input type="submit" value="Delete" class="button" />
-			</form>';
-			
-$l['mydownloads_download_comment_deleted'] = "Вы успешно удалили комментарий.";
-$l['mydownloads_download_comment_deleted_title'] = "Комментарий удалён";
-
-$l['mydownloads_download_commented'] = "Вы успешно оставили комментарий.";
-$l['mydownloads_download_commented_title'] = "Комментарий оставлен";
-
-$l['mydownloads_no_did'] = "Выбрана неверная загрузка.";
-$l['mydownloads_no_permissions'] = "У вас недостаточно прав для просмотра данной модификации.<br />Данная модификация либо не существует, либо была скрыта администрацией по каким-то причинам.<br/>Если вы являетесь автором данного мода, вы можете <a href=\" http://forums.lastbullet.net/index.php?action=viewgroups&gid=4\">связаться с администрацией</a> для получения подробностей.";
-$l['mydownloads_no_cid'] = "Неверная категория.";
-$l['mydownloads_no_comid'] = "Неверный комментарий.";
-$l['mydownloads_flood_check'] = "Прошло слишком мало времени после вашего последнего комментарий. Пожалуйста, подождите {1} секунд(у)."; // copied from MyBB :P
-
-$l['mydownloads_download_rate'] = "Оценить";
-$l['mydownloads_error_invalidrating'] = "Вы не можете оставить подобную оценку.";
-$l['mydownloads_already_rated'] = "Вы уже оценили этот файл.";
-
-$l['mydownloads_download_rated'] = "Вы успешно оценили эту загрузку.";
-$l['mydownloads_download_rated_title'] = "Загрузка оценена";
-
-$l['mydownloads_your_rate'] = "Ваша оценка";
-$l['mydownloads_total_rate'] = "Средняя оценка";
-
-$l['mydownloads_sub_categories'] = 'Подкатегории';
-$l['mydownloads_sub_categories2'] = '{1} Подгатегории и {2} загрузки';
-
-$l['mydownloads_categories_main'] = 'Главная страница';
-
-$l['mydownloads_sub_categories_in_cat'] = 'Категории, чьи "родительские" категории "{1}"';
-$l['mydownloads_submit_download_in_category'] = 'Подтверждение загрузки в категории "{1}"';
-$l['mydownloads_submit_download'] = 'Подтвердите загрузку';
-
-$l['mydownloads_submit_download_name'] = 'Имя';
-$l['mydownloads_submit_download_name_desc'] = 'Имя загрузки.';
-
-$l['mydownloads_submit_download_description'] = 'Описание';
-$l['mydownloads_submit_download_description_desc'] = 'Укажите описание.';
-
-$l['mydownloads_submit_download_points'] = 'Очки';
-$l['mydownloads_submit_download_points_desc'] = 'Укажите число очков, которое должен заплатить пользователь, дабы скачать файл.';
-$l['mydownloads_submit_download_points_desc_mp_not_installed'] = '<span style="color: #FF0000;"><strong>Эта функция отключена</strong></span>';
-
-$l['mydownloads_submit_download_price'] = 'Цена';
-$l['mydownloads_submit_download_price_desc'] = 'Укажите количество очков, которые должен потратить пользователь.';
-$l['mydownloads_submit_download_price_desc_paypal_deactivated'] = '<span style="color: #FF0000;"><strong>Эта функция отключена.</strong></span>';
-
-$l['mydownloads_submit_download_preview'] = 'Просмотр изображения';
-$l['mydownloads_submit_download_preview_desc'] = 'Выберите изображение-превью. Если хотите оставить пустым, не выбирайте.';
-
-$l['mydownloads_submit_download_download'] = 'Скачать';
-$l['mydownloads_submit_download_download_desc'] = 'Выберите файл, который собираетесь загрузить.';
-
-$l['mydownloads_submit_download_license'] = 'Лицензия';
-$l['mydownloads_submit_download_license_desc'] = 'Выберите лицензию. Если не хотите - не выбирайте.';
-
-$l['mydownloads_submit_download_version'] = 'Версия';
-$l['mydownloads_submit_download_version_desc'] = 'Выберите версию файла. Если не хотите - не выбирайте.';
-
-$l['mydownloads_upload_problem_downloadfile'] = "При загрузке файла возникла проблема: ";
-$l['mydownloads_upload_problem_previewfile'] = "При загрузке изображения-превью возникла проблема: ";
-
+$l['mydownloads_by_username'] = 'by <a href="{1}/{2}">{3}</a>';
+$l['mydownloads_cancel'] = 'Cancel';
+$l['mydownloads_cancel_upload'] = 'Cancel Upload';
+$l['mydownloads_cannot_rate_own'] = 'You cannot rate your own downloads.';
+$l['mydownloads_cant_edit_comment'] = 'You can no longer edit this comment because the edit time has passed.';
+$l['mydownloads_categories'] = "Categories";
+$l['mydownloads_categories_main'] = 'Main Page';
+$l['mydownloads_category'] = 'Category';
+$l['mydownloads_closed'] = "The downloads page is temporarily closed.";
+$l['mydownloads_collaborating'] = 'My Collaborations';
+$l['mydownloads_collaborators'] = 'Collaborators';
+$l['mydownloads_collaborators_updated'] = 'Collaborators updated successfully.';
+$l['mydownloads_collaborator_username'] = 'Username';
+$l['mydownloads_comment'] = "Leave a comment";
+$l['mydownloads_comment_banned'] = "You cannot comment while you are banned.";
+$l['mydownloads_confirm_delete'] = 'Confirm that you want to delete the selected comment.<br /><form action="{1}/mydownloads/comment_download.php" method="post" "><input type="hidden" name="my_post_key" value="{2}" /><input type="hidden" name="cid" value="{3}" /><input type="hidden" name="action" value="delete_comment" /><input type="submit" value="Delete" class="button" /></form>';
+$l['mydownloads_cover'] = 'Cover';
+$l['mydownloads_cover_updated'] = 'Cover updated successfully.';
+$l['mydownloads_date'] = 'Date';
+$l['mydownloads_default_license'] = "The author hasn't set a license for this download.";
+$l['mydownloads_delete'] = 'Delete';
+$l['mydownloads_delete_confirm'] = "Are you sure you want to delete this comment?";
+$l['mydownloads_delete_download'] = 'Delete Download Submission';
+$l['mydownloads_delete_download_breadcrumb'] = 'Deleting download';
+$l['mydownloads_delete_download_confirm'] = 'Are you sure you want to delete download "{1}"?';
+$l['mydownloads_delete_preview_confirm'] = 'Are you sure you want to delete the selected image?';
+$l['mydownloads_desc'] = 'desc';
+$l['mydownloads_download'] = "Download";
+$l['mydownloads_downloaded'] = "<strong>Downloads:</strong> {1}";
+$l['mydownloads_downloads'] = 'Downloads';
+$l['mydownloads_downloads_number'] = "{1} downloads";
+$l['mydownloads_download_category'] = 'Category';
+$l['mydownloads_download_changelog'] = 'Changelog';
+$l['mydownloads_download_collaborator'] = 'Collaborator';
+$l['mydownloads_download_commented'] = "You have successfully commented this download.";
+$l['mydownloads_download_commented_title'] = "Download commented";
+$l['mydownloads_download_comments'] = "Comments";
+$l['mydownloads_download_comment_deleted'] = "You have successfully deleted this comment.";
+$l['mydownloads_download_comment_deleted_title'] = "Comment deleted";
+$l['mydownloads_download_comment_edited'] = 'Comment edited successfully.';
+$l['mydownloads_download_deleted'] = 'You have successfully deleted the selected download.';
+$l['mydownloads_download_deleted_title'] = 'Download Deleted';
+$l['mydownloads_download_delete_comment'] = "Delete";
+$l['mydownloads_download_description'] = "Description";
+$l['mydownloads_download_edit_comment'] = "Edit";
+$l['mydownloads_download_image'] = "Download image";
+$l['mydownloads_download_invited'] = 'Invited';
+$l['mydownloads_download_name'] = "Name";
+$l['mydownloads_download_points'] = "Points";
+$l['mydownloads_download_preview'] = "Image";
+$l['mydownloads_download_price'] = "Price";
+$l['mydownloads_download_purchased'] = "You have successfully purchased this download.";
+$l['mydownloads_download_purchased_title'] = "Download purchased";
+$l['mydownloads_download_rate'] = "Rating";
+$l['mydownloads_download_rated'] = "You have successfully rated this download.";
+$l['mydownloads_download_rated_title'] = "Download rated";
+$l['mydownloads_download_submitter'] = 'Submitter';
+$l['mydownloads_download_successfully_added'] = "You have successfully submitted a new download which is now waiting to be approved.";
+$l['mydownloads_download_successfully_added_auto'] = "You have successfully submitted a new download which has been automatically approved.";
+$l['mydownloads_download_successfully_added_title'] = 'Download submitted';
+$l['mydownloads_download_successfully_added_title_auto'] = 'Download submitted and approved';
+$l['mydownloads_download_successfully_edited'] = "You have successfully edited a download which is now waiting to be approved.";
+$l['mydownloads_download_successfully_edited_auto'] = "You have successfully edited a download which has been automatically approved.";
+$l['mydownloads_download_successfully_edited_title'] = 'Download Edited';
+$l['mydownloads_download_successfully_edited_title_auto'] = 'Download edited and approved';
+$l['mydownloads_download_url'] = 'View download link(s)';
+$l['mydownloads_download_views'] = "Views";
+$l['mydownloads_edit'] = 'Edit';
+$l['mydownloads_editing_collaborators'] = 'Editing collaborators of {1}';
+$l['mydownloads_editing_download'] = 'Editing Download {1}';
+$l['mydownloads_editing_invited'] = 'Editing invited users of {1}';
+$l['mydownloads_edit_collaborators'] = 'Edit Collaborators';
+$l['mydownloads_edit_comment'] = "Edit Comment";
+$l['mydownloads_edit_download'] = 'Edit Download';
+$l['mydownloads_edit_download_download_desc'] = 'Select the download file to upload. (Leave empty to not change this field)';
+$l['mydownloads_edit_download_preview_desc'] = 'Select the cover image to upload. (Leave empty to not change this field)';
+$l['mydownloads_edit_invited'] = 'Edit Invited Users';
+$l['mydownloads_empty_reason'] = 'You must specify a reason for reporting the selected download.';
+$l['mydownloads_enter_a_comment'] = 'Enter a comment please.';
+$l['mydownloads_error'] = 'Error';
+$l['mydownloads_error_attachsize'] = "The file you attached is too large. The maximum size for that type of file is {1} kilobytes.";
+$l['mydownloads_error_attachtype'] = "The type of file that you attached is not allowed. Please remove the attachment or choose a different type.";
+$l['mydownloads_error_invalidrating'] = "You have selected an invalid rating for this download.";
+$l['mydownloads_error_uploadfailed'] = "The file upload failed. Please choose a valid file and try again. ";
+$l['mydownloads_error_uploadfailed_detail'] = "Error details: ";
+$l['mydownloads_error_uploadfailed_lost'] = "The attachment could not be found on the server.";
+$l['mydownloads_error_uploadfailed_movefailed'] = "There was a problem moving the uploaded file to its destination.";
+$l['mydownloads_error_uploadfailed_nothingtomove'] = "An invalid file was specified, so the uploaded file could not be moved to its destination.";
+$l['mydownloads_error_uploadfailed_php1'] = "PHP returned: Uploaded file exceeded upload_max_filesize directive in php.ini.  Please contact your forum administrator with this error.";
+$l['mydownloads_error_uploadfailed_php2'] = "The uploaded file exceeded the maximum file size specified.";
+$l['mydownloads_error_uploadfailed_php3'] = "The uploaded file was only partially uploaded.";
+$l['mydownloads_error_uploadfailed_php4'] = "No file was uploaded.";
+$l['mydownloads_error_uploadfailed_php6'] = "PHP returned: Missing a temporary folder.  Please contact your forum administrator with this error.";
+$l['mydownloads_error_uploadfailed_php7'] = "PHP returned: Failed to write the file to disk.  Please contact your forum administrator with this error.";
+$l['mydownloads_error_uploadfailed_phpx'] = "PHP returned error code: {1}.  Please contact your forum administrator with this error.";
+$l['mydownloads_error_uploadsize'] = "The size of the uploaded file is too large.";
+$l['mydownloads_exceeded'] = 'PHP upload limit exceeded. Maximum is {1}.';
+$l['mydownloads_filter_by_tags'] = 'Filter results by tags:';
+$l['mydownloads_five_stars'] = "5 stars out of 5";
+$l['mydownloads_flood_check'] = "You are trying to post a comment too quickly after posting a previous comment. Please wait {1} more second(s)."; // copied from MyBB :P
+$l['mydownloads_forum'] = 'Forum';
+$l['mydownloads_four_stars'] = "3 stars out of 5";
+$l['mydownloads_go_to_all_downloads'] = 'Go to All Downloads';
+$l['mydownloads_guidelines'] = "These are the guidelines! BB Code is [b]allowed[/b].";
+$l['mydownloads_header_reports'] = 'There are {1} unread download reports.';
+$l['mydownloads_hidden'] = '<em>Hidden</em>';
+$l['mydownloads_hidden2'] = '<em>(Hidden)</em>';
+$l['mydownloads_history'] = 'Download History';
+$l['mydownloads_history_visible'] = 'Download History Visible';
+$l['mydownloads_history_visible_desc'] = 'Untick the checkbox to disable your download history.';
+$l['mydownloads_in'] = 'in';
+$l['mydownloads_invalid_banner'] = 'You entered an invalid banner. Accepted extensions: bmp, gif, png, jpeg.';
+$l['mydownloads_invalid_extension'] = 'The image file can only have one the following extensions: jpeg, png or gif.';
+$l['mydownloads_invalid_points'] = 'You selected an invalid amount of points.';
+$l['mydownloads_invalid_receiver_email'] = 'You have entered an invalid email.';
+$l['mydownloads_invalid_url'] = 'The following URL is invalid: ';
+$l['mydownloads_invalid_user'] = 'You selected an invalid user.';
+$l['mydownloads_invited'] = 'User Access';
+$l['mydownloads_invited_updated'] = 'Invited users updated successfully.';
+$l['mydownloads_invited_username'] = 'Username';
+$l['mydownloads_invite_only'] = "<em>Invite Only</em>";
+$l['mydownloads_invite_only2'] = "<em>(Invite Only)</em>";
+$l['mydownloads_last_updated'] = 'Last Updated';
+$l['mydownloads_latest_submissions'] = 'Latest Download Submissions';
+$l['mydownloads_license'] = 'License';
+$l['mydownloads_log_in_register'] = "To leave a comment you must log in.";
+$l['mydownloads_manage_previews'] = 'Manage Images';
+$l['mydownloads_max_height'] = 'Your image\'s height is bigger than {1}px.';
+$l['mydownloads_max_previews'] = 'You can upload a maximum of {1} images to each download.';
+$l['mydownloads_max_previews_error'] = 'You cannot upload anymore images because you have already reached your limit for this download item.';
+$l['mydownloads_max_res'] = 'Your images are limited to {1}px of width and {2}px of height.';
+$l['mydownloads_max_width'] = 'Your images\'s width is bigger than {1}px.';
+$l['mydownloads_md5'] = 'MD5';
+$l['mydownloads_message'] = "Message";
+$l['mydownloads_most_downloaded'] = 'Most Downloaded';
+$l['mydownloads_most_rated'] = 'Most Rated';
+$l['mydownloads_most_viewed'] = 'Most Viewed';
+$l['mydownloads_mysubmissions'] = 'My Submissions';
+$l['mydownloads_my_submissions'] = 'My Download Submissions <span class="smalltext">(only approved downloads are shown)</span>';
+$l['mydownloads_my_submissions_collab'] = 'My Download Collaborations <span class="smalltext">(only approved downloads are shown)</span>';
+$l['mydownloads_my_submissions_profile'] = 'Download Submissions:';
+$l['mydownloads_na'] = "N/A";
+$l['mydownloads_new_comment'] = 'A new comment was posted by {1} to a download of yours.';
+$l['mydownloads_not_enough_money'] = "You do not have enough points to purchase this download.";
+$l['mydownloads_no_categories'] = "No categories have been found.";
+$l['mydownloads_no_cid'] = "The category you have selected is not valid.";
+$l['mydownloads_no_collaborations'] = 'No download collaborations found.';
+$l['mydownloads_no_comid'] = "The comment you have selected is not valid.";
+$l['mydownloads_no_description'] = "You haven't entered a description.";
+$l['mydownloads_no_did'] = "The download you have selected is not valid.";
+$l['mydownloads_no_dl_name'] = "You haven't entered a name for the download.";
+$l['mydownloads_no_dl_visibility'] = 'You selected an invalid visibility value.';
+$l['mydownloads_no_downloads'] = "No downloads found.";
+$l['mydownloads_no_download_file'] = "You haven't selected the download file to be uploaded.";
+$l['mydownloads_no_hidden'] = "You haven't entered a setting for 'hidden'.";
+$l['mydownloads_no_money'] = "No money";
+$l['mydownloads_no_permissions'] = "You either don't have permission to view this submission or it was set to hidden for administrative reasons.<br/>If you are the author of this submission, you can contact an administrator for more details.";
+$l['mydownloads_no_points_set'] = "No points";
+$l['mydownloads_no_previews'] = 'No images available.';
+$l['mydownloads_no_price_set'] = "No price";
+$l['mydownloads_no_submissions'] = 'No download submissions found.';
+$l['mydownloads_no_sub_categories'] = "No sub categories have been found.";
+$l['mydownloads_no_version_set'] = 'No version has been set.';
+$l['mydownloads_number_downloads'] = "Downloads";
+$l['mydownloads_one_star'] = "1 star out of 5";
+$l['mydownloads_options'] = 'Options';
+$l['mydownloads_previews'] = 'Images';
+$l['mydownloads_preview_deleted'] = 'Image deleted successfully.';
+$l['mydownloads_preview_empty'] = 'The image field is empty.';
+$l['mydownloads_preview_submitted'] = 'Image submitted successfully.';
+$l['mydownloads_processing'] = 'Processing...';
+$l['mydownloads_public'] = "<em>Public</em>";
+$l['mydownloads_purchase'] = "Purchase download with {1}";
+$l['mydownloads_purchase_image'] = "Purchase image with {1}";
+$l['mydownloads_purchase_url'] = 'Purchase download link(s) with {1}';
+$l['mydownloads_rate_banned'] = "You cannot rate while you are banned.";
+$l['mydownloads_ratings_update_error'] = 'Error rating download:';
+$l['mydownloads_rating_too_fast'] = 'You can only rate once each {1} seconds. Try again in {2} second(s).';
+$l['mydownloads_remove'] = 'Remove';
+$l['mydownloads_remove_collaborator_confirm'] = 'Are you sure you want to remove the selected collaborator?';
+$l['mydownloads_remove_invited_confirm'] = 'Are you sure you want to remove the selected invited user?';
+$l['mydownloads_reported_message'] = 'You have successfully reported the selected download.';
+$l['mydownloads_reported_title'] = 'Download Reported';
+$l['mydownloads_report_breacrumb'] = 'Reporting download ';
+$l['mydownloads_report_download'] = 'Report Download';
+$l['mydownloads_report_download_reason'] = 'Reason';
+$l['mydownloads_report_download_reason_desc'] = 'Enter a reason for reporting this download.';
+$l['mydownloads_require_preview'] = 'A cover image is required.';
+$l['mydownloads_search'] = 'Download Search';
+$l['mydownloads_search_results'] = 'Search Results: ';
+$l['mydownloads_select_category'] = 'Select a Category';
+$l['mydownloads_set_banner'] = 'Set Banner';
+$l['mydownloads_set_cover'] = 'Set Cover';
+$l['mydownloads_sortby'] = 'Sort by:';
+$l['mydownloads_start'] = 'Start';
+$l['mydownloads_start_upload'] = 'Start Upload';
+$l['mydownloads_stats'] = 'Statistics';
+$l['mydownloads_stats_of'] = 'Statistics of category {1}';
+$l['mydownloads_status'] = 'Status';
+$l['mydownloads_submissions'] = 'Submissions';
+$l['mydownloads_submit'] = 'Submit';
+$l['mydownloads_submitter_desc'] = 'The user that has submitted this download.';
+$l['mydownloads_submit_comment'] = "Submit";
+$l['mydownloads_submit_date'] = 'Submit Date';
+$l['mydownloads_submit_download'] = 'Submit Download';
+$l['mydownloads_submit_download_bannerurl'] = 'Banner URL';
+$l['mydownloads_submit_download_bannerurl_desc'] = 'You can specify a banner URL for your download. For best results use 1500x300 resolution as minimum or same aspect ratio. Accepted extensions: bmp, gif, png, jpeg.';
+$l['mydownloads_submit_download_changelog'] = 'Changelog';
+$l['mydownloads_submit_download_changelog_desc'] = 'Enter your changelog for this download.';
+$l['mydownloads_submit_download_description'] = 'Description';
+$l['mydownloads_submit_download_description_desc'] = 'Enter a description for this download.';
+$l['mydownloads_submit_download_download'] = 'Download file';
+$l['mydownloads_submit_download_download_desc'] = 'Select the download file to upload.';
 $l['mydownloads_submit_download_email'] = 'PayPal Email';
 $l['mydownloads_submit_download_email_desc'] = 'Enter your PayPal email for which payments will be sent. Leave blank if you want the payments to be sent to the Administrator. If you fill in this field but leave the price 0, the donate button will appear instead.';
-
-$l['mydownloads_no_dl_name'] = "Вы не ввели имя для этой загрузки.";
-$l['mydownloads_no_download_file'] = "Вы не выбрали файл.";
-$l['mydownloads_no_description'] = "Вы не ввели описание.";
-$l['mydownloads_no_hidden'] = "Вы не настроили приватность.";
-$l['mydownloads_no_cid'] = "Вы выбрали неверную категорию.";
-$l['mydownloads_no_did'] = "Вы выбрали неверную загрузку.";
-
-$l['mydownloads_download_successfully_added'] = "Вы загрузили файл, ожидающий подтверждения.";
-$l['mydownloads_download_successfully_added_title'] = 'Подтверждение получено';
-
-$l['mydownloads_download_successfully_added_auto'] = "Вы загрузили файл, который был автоматически подтвержден.";
-$l['mydownloads_download_successfully_added_title_auto'] = 'Подтверждение получено';
-
-$l['mydownloads_download_successfully_edited'] = "Вы успешно изменили страницу загрузки файла. Ожидайте подтверждения.";
-$l['mydownloads_download_successfully_edited_title'] = 'Загрузка изменена';
-
-$l['mydownloads_download_successfully_edited_auto'] = "Вы успешно изменили страницу загрузки файла, действие автоматически подтверждено.";
-$l['mydownloads_download_successfully_edited_title_auto'] = 'Загрузка изменена, изменения подтверждены автоматически.';
-
-$l['mydownloads_upload_problem_dl_already_exists'] = "Файл с таким именем уже был загружен.";
-$l['mydownloads_upload_problem_pr_already_exists'] = "Файл-превью с таким именем уже был загружен.";
-
-$l['mydownloads_no_version_set'] = 'Версия не указана.';
-$l['mydownloads_enter_a_comment'] = 'Введите комментарий.';
-
-$l['mydownloads_download_url'] = 'Показать ссылки на скачивание';
-$l['mydownloads_purchase_url'] = 'Купить ссылки на скачивание';
-$l['mydownloads_url_download'] = "Автор решил оставить ссылки на скачивание вместо того, чтобы загрузить файл.<br />Ссылки на скачивание:<br />{1}";
-$l['mydownloads_url_download_title'] = "Скачать файл";
-$l['mydownloads_exceeded'] = 'PHP upload limit exceeded. Maximum is {1}.';
-$l['mydownloads_md5'] = 'MD5';
-$l['mydownloads_latest_submissions'] = 'Последние загрузки';
-$l['mydownloads_submit_date'] = 'Дата загрузки';
-$l['mydownloads_report_download'] = 'Жалоба на загрузку';
-$l['mydownloads_report_download_reason'] = 'Причина';
-$l['mydownloads_report_download_reason_desc'] = 'Введите причину.';
-$l['mydownloads_submit'] = 'Подтвердить';
-$l['mydownloads_report_breacrumb'] = 'Жалоба в процессе ';
-$l['mydownloads_reported_message'] = 'Вы успешно оставили жалобуо данной загрузки.';
-$l['mydownloads_reported_title'] = 'Жалоба оставлена';
-$l['mydownloads_empty_reason'] = 'Вы должны указать причину, прежде чем оставлять жалобу.';
-$l['mydownloads_options'] = 'Опции';
-$l['mydownloads_my_submissions'] = 'Мои загрузки <span class="smalltext">(только подтверждённые)</span>';
-$l['mydownloads_user_submissions'] = '{1}\'s Мои загрузки <span class="smalltext">(только подтверждённые)</span>';
-$l['mydownloads_edit'] = 'Изменить';
-$l['mydownloads_delete'] = 'Удалить';
-$l['mydownloads_mysubmissions'] = 'Мои загрузки';
-$l['mydownloads_user_mysubmissions'] = '{1}\'s Подтверждений загрузок';
-$l['mydownloads_no_submissions'] = 'Загрузки не найдены';
-$l['mydownloads_download_category'] = 'Категория';
-$l['mydownloads_status'] = 'Статус';
-$l['mydownloads_active'] = '<strong>Активен</strong>';
-$l['mydownloads_hidden'] = '<em>Скрыт</em>';
-$l['mydownloads_download_deleted_title'] = 'Загрузка удалена';
-$l['mydownloads_download_deleted'] = 'Вы успешно удалили загрузку.';
-$l['mydownloads_delete'] = 'Удалить';
-$l['mydownloads_delete_download_confirm'] = 'Вы уверены, что хотите удалить загрузку "{1}"?';
-$l['mydownloads_delete_download'] = 'Подтверждение удаления';
-$l['mydownloads_delete_download_breadcrumb'] = 'Удаление загрузки...';
-$l['mydownloads_edit_download'] = 'Изменить загрузку';
-$l['mydownloads_editing_download'] = 'Изменение загрузки {1}';
-$l['mydownloads_edit_download_preview_desc'] = 'Выберите изображение-превью (Или не выбирайте, если хотите оставить пустым)';
-$l['mydownloads_edit_download_download_desc'] = 'Выберите файл для загрузки. ';
-$l['mydownloads_my_submissions_profile'] = 'Подтвержденя загрузок:';
-$l['mydownloads_view_submissions'] = 'Показать {1}\'s подтверждения загрузок';
-$l['mydownloads_being_updated'] = '<em>Обновляется</em>';
-$l['mydownloads_being_updated2'] = "<em>(Обновляется)</em>";
-$l['mydownloads_being_updated_error'] = 'Загрузка была обновлена, и ожидает подтверждения. Вы не можете изменить никакую информацию, пока не будет получен отказ либо получено одобрение.';
-$l['mydownloads_being_updated_notice'] = '<div style="text-align: center"><strong>Загрузка была обновлена и ожидает подтверждения. Вы всё еще можете скачать старую версию.</strong></div><br /><br />';
-$l['mydownloads_invalid_receiver_email'] = 'Неверный адрес электронной почты.';
-
-$l['mydownloads_stats'] = 'Статистика';
-$l['mydownloads_stats_of'] = 'Статистика категории {1}';
-$l['mydownloads_most_rated'] = 'С наивысшим рейтингом';
-$l['mydownloads_most_downloaded'] = 'Первые по числу загрузок';
-$l['mydownloads_most_viewed'] = 'Первые по числу просмотров';
-
-$l['mydownloads_one_star'] = "1 звезда из 5";
-$l['mydownloads_two_stars'] = "2 звезды из 5";
-$l['mydownloads_three_stars'] = "3 звезды из 5";
-$l['mydownloads_four_stars'] = "4 звезды из 5";
-$l['mydownloads_five_stars'] = "5 звезды из 5";
-$l['mydownloads_ratings_update_error'] = 'Ошибка при оценке:';
-$l['mydownloads_cannot_rate_own'] = 'Вы не можете оценивать собственные загрузки.';
-
-$l['mydownloads_asc'] = 'asc';
-$l['mydownloads_desc'] = 'desc';
-
-$l['mydownloads_search'] = 'Поиск загрузки';
-$l['mydownloads_search_results'] = 'Результаты поиска: ';
-$l['mydownloads_invalid_url'] = 'Неверный URL: ';
-$l['mydownloads_submit_download_urls'] = 'URL скачивания';
-$l['mydownloads_submit_download_urls_desc'] = 'Вместо того, чтобы напрямую загрузить файл, вы можете указать ссылку на него. Если Вы не оставите поле пустым, файл не будет загружен напрямую.';
-$l['mydownloads_in'] = 'в';
-$l['mydownloads_all_categories'] = 'Все категории';
-
-$l['mydownloads_manage_previews'] = 'Управление превью';
-$l['mydownloads_previews'] = 'Предварительный просмотр';
-$l['mydownloads_cover'] = 'Обложка';
-$l['mydownloads_set_cover'] = 'Поставить обложку';
-$l['mydownloads_max_previews'] = 'Вы можете загрузить {1} превью.';
-$l['mydownloads_submit_preview'] = 'Одобрить превью';
-$l['mydownloads_no_previews'] = 'Нет превью.';
-$l['mydownloads_max_previews_error'] = 'Достигнут лимит превью.';
-$l['mydownloads_delete_preview_confirm'] = 'Вы уверены, что хотите удалить выбранное превью?';
-$l['mydownloads_preview_submitted'] = 'Превью успешно загружено.';
-$l['mydownloads_cover_updated'] = 'Обложка изменена.';
-$l['mydownloads_preview_deleted'] = 'Превью удалено.';
-
-$l['mydownloads_max_res'] = 'Вы не можете загружать изображения больше, чем {1}px по ширине и {2}px по высоте.';
-$l['mydownloads_max_width'] = 'Ширина вашего изображения больше, чем {1}px.';
-$l['mydownloads_max_height'] = 'Высота вашего изображения больше, чем {1}px.';
-
-$l['mydownloads_error_attachtype'] = "Невозможно загрузить данный тип файла. Пожалуйста, выберите корректный тип.";
-$l['mydownloads_error_attachsize'] = "Файл слишком большого размера. Максимально допустимый размер равен {1} kb.";
-$l['mydownloads_error_uploadsize'] = "Файл слишком большой.";
-$l['mydownloads_error_uploadfailed'] = "Загрузка не удалась. Пожалуйста, выберите допустимый файл. ";
-$l['mydownloads_error_uploadfailed_detail'] = "Детали ошибки: ";
-$l['mydownloads_error_uploadfailed_php1'] = "PHP: Загруженный файл превысил размер, указанный в upload_max_filesize directive в php.ini.  Пожалуйста, свяжитесь с администратором.";
-$l['mydownloads_error_uploadfailed_php2'] = "Размер загружаемого файла превышает максимально допустимый.";
-$l['mydownloads_error_uploadfailed_php3'] = "Файл был загружен лишь частично.";
-$l['mydownloads_error_uploadfailed_php4'] = "Файл не был загружен";
-$l['mydownloads_error_uploadfailed_php6'] = "PHP: Отсутсвует временная папка. Пожалуйста, свяжитесь с администратором.";
-$l['mydownloads_error_uploadfailed_php7'] = "PHP: Невозможно записать файл на диск. Пожалуйста, свяжитесь с администратором.";
-$l['mydownloads_error_uploadfailed_phpx'] = "PHP: {1}.  Пожалуйста, свяжитесь с администратором.";
-$l['mydownloads_error_uploadfailed_nothingtomove'] = "Был выбран неверный файл, загрузка невозможна.";
-$l['mydownloads_error_uploadfailed_movefailed'] = "Возникли проблемы с перемещением файла.";
-$l['mydownloads_error_uploadfailed_lost'] = "Прикреплённый файл не может быть найден на сервере.";
-$l['mydownloads_header_reports'] = 'Имеются {1} жалоб на загрузку.';
-$l['mydownloads_select_category'] = 'Выберите категорию';
-$l['mydownloads_category'] = 'Категория';
-
-$l['mydownloads_preview_empty'] = 'Не загружено предварительное изображение.';
-$l['mydownloads_invalid_extension'] = 'Файлы-превью могут быть следующих форматов: jpeg, png or gif.';
-$l['mydownloads_require_preview'] = 'Необходимо предварительное изображение.';
+$l['mydownloads_submit_download_in_category'] = 'Submitting download in category "{1}"';
+$l['mydownloads_submit_download_license'] = 'License';
+$l['mydownloads_submit_download_license_desc'] = 'Enter a license for this download. Leave blank if you do not want to show a license.';
+$l['mydownloads_submit_download_name'] = 'Name';
+$l['mydownloads_submit_download_name_desc'] = 'The name of the download.';
+$l['mydownloads_submit_download_points'] = 'Points';
+$l['mydownloads_submit_download_points_desc'] = 'Enter the cost of this download in points. This is the amount of points users must pay to download the uploaded file. Everytime this download is purchased, you get the amount of points you enter here multiplied by the percentage the administrator has set in settings.';
+$l['mydownloads_submit_download_points_desc_mp_not_installed'] = '<span style="color: #FF0000;"><strong>NewPoints feature is disabled. Leave blank.</strong></span>';
+$l['mydownloads_submit_download_preview'] = 'Cover image';
+$l['mydownloads_submit_download_preview_desc'] = 'Select the cover image to upload. The cover image is displayed when browsing downloads.';
+$l['mydownloads_submit_download_price'] = 'Price';
+$l['mydownloads_submit_download_price_desc'] = 'Enter how much money users must pay to download this file - via PayPal';
+$l['mydownloads_submit_download_price_desc_paypal_deactivated'] = '<span style="color: #FF0000;"><strong>PayPal feature is disabled. Leave blank.</strong></span>';
+$l['mydownloads_submit_download_short_description'] = 'Short Description';
+$l['mydownloads_submit_download_short_description_desc'] = 'Maximum 150 letters. Enter a short description for this download. Will be shown when browsing and hovering over a download.';
+$l['mydownloads_edit_download_short_description_desc'] = 'Maximum 150 letters. Enter a short description for this download. Will be shown when browsing and hovering over a download.';
+$l['mydownloads_submit_download_tags'] = 'Tags';
+$l['mydownloads_submit_download_tags_desc'] = 'Select the tags associated with your download.';
+$l['mydownloads_submit_download_urls'] = 'Download URLs';
+$l['mydownloads_submit_download_urls_desc'] = 'This is an optional field. You can enter download URLs rather than uploading a file. If this is not empty, the selected file will not be uploaded.';
+$l['mydownloads_submit_download_version'] = 'Version';
+$l['mydownloads_submit_download_version_desc'] = 'Enter the version of the download. Leave blank if there is no version.';
+$l['mydownloads_submit_download_visibility'] = 'Visibility';
+$l['mydownloads_submit_preview'] = 'Submit Image';
+$l['mydownloads_sub_categories'] = 'Sub Categories';
+$l['mydownloads_sub_categories2'] = '{1} Sub Categories and {2} downloads';
+$l['mydownloads_sub_categories_in_cat'] = 'Categories whose parent category is "{1}"';
+$l['mydownloads_success'] = 'Success';
+$l['mydownloads_switch_dragdrop'] = 'Switch to Drag & Drop';
+$l['mydownloads_switch_legacy'] = 'Switch to Legacy';
+$l['mydownloads_tags'] = 'Tags';
+$l['mydownloads_three_stars'] = "3 stars out of 5";
+$l['mydownloads_total_rate'] = "Average rating";
+$l['mydownloads_two_stars'] = "2 stars out of 5";
+$l['mydownloads_unlisted'] = "<em>Unlisted</em>";
+$l['mydownloads_unlisted2'] = "<em>(Unlisted)</em>";
+$l['mydownloads_suspended'] = "<em>Suspended</em>";
+$l['mydownloads_upload_problem_dl_already_exists'] = "A download file with the same name has already been uploaded";
+$l['mydownloads_upload_problem_downloadfile'] = "The following problem has occurred when uploading the download file: ";
+$l['mydownloads_upload_problem_previewfile'] = "The following problem has occurred when uploading the image: ";
+$l['mydownloads_upload_problem_pr_already_exists'] = "A image with the same name has already been uploaded";
+$l['mydownloads_url_download'] = "The author of this download has decided to enter download links instead of uploading a file.<br />Download links:<br />{1}";
+$l['mydownloads_url_download_title'] = "Download file";
+$l['mydownloads_user_history'] = '{1}\'s Download History';
+$l['mydownloads_user_mysubmissions'] = '{1}\'s Download Submissions';
+$l['mydownloads_user_submissions'] = '{1}\'s Download Submissions <span class="smalltext">(only approved downloads are shown)</span>';
+$l['mydownloads_use_legacy'] = 'Please use the legacy version.';
+$l['mydownloads_version'] = 'Version';
+$l['mydownloads_viewed'] = "<br /><strong>Views:</strong> {1}";
+$l['mydownloads_view_history'] = 'Download History';
+$l['mydownloads_view_submissions'] = 'View Submissions';
+$l['mydownloads_your_money'] = "You have";
+$l['mydownloads_your_rate'] = "Your rating";
+?>
