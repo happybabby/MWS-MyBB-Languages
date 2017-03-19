@@ -27,16 +27,16 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************/
 
-$l['viewgroups_groups'] = "<strong>User groups</strong>";
-$l['viewgroups_groups_nav'] = "View Groups";
-$l['viewgroups_groups_group'] = "User Groups - {1}";
-$l['viewgroups_groups_avatar'] = 'Avatar';
-$l['viewgroups_groups_username'] = 'Username';
-$l['viewgroups_groups_regdate'] = 'Joined';
-$l['viewgroups_groups_lastactive'] = 'Last Visit';
-$l['viewgroups_groups_postcount'] = 'Post Count';
-$l['viewgroups_usersnotfound'] = 'Couldn\'t find any users assigned to this user group.';
-$l['viewgroups_leaders'] = 'Group Leaders';
-$l['viewgroups_members'] = 'Group Members';
+$l['viewgroups_groups'] = "<strong>Пользовательские гурппы</strong>";
+$l['viewgroups_groups_nav'] = "Показать группы";
+$l['viewgroups_groups_group'] = "Пользовательские группы - {1}";
+$l['viewgroups_groups_avatar'] = 'Аватар';
+$l['viewgroups_groups_username'] = 'Имя пользователя';
+$l['viewgroups_groups_regdate'] = 'Присоединился';
+$l['viewgroups_groups_lastactive'] = 'Последнее посещение';
+$l['viewgroups_groups_postcount'] = 'Число сообщений';
+$l['viewgroups_usersnotfound'] = 'Невозможно найти пользователей, принадлежащих этой группе.';
+$l['viewgroups_leaders'] = 'Лидеры группы';
+$l['viewgroups_members'] = 'Участники группы';
 
 ?>
