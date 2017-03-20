@@ -34,7 +34,7 @@ $l['mydownloads_asc'] = 'восх';
 $l['mydownloads_being_updated'] = '<em>Обновляется</em>';
 $l['mydownloads_being_updated2'] = "<em>(Обновляется)</em>";
 $l['mydownloads_being_updated_error'] = 'Эта загрузка была обновлена. Вы не можете изменять её, покуда она находится на рассмотрении.';
-$l['mydownloads_being_updated_notice'] = Эта загрузка была обновлена, и в данный момент она ожидает рассмотрения. Тем временем, вы можете скачать старую версию.';
+$l['mydownloads_being_updated_notice'] = 'Эта загрузка была обновлена, и в данный момент она ожидает рассмотрения. Тем временем, вы можете скачать старую версию.';
 $l['mydownloads_by_user'] = '';
 $l['mydownloads_by_username'] = 'от <a href="{1}/{2}">{3}</a>';
 $l['mydownloads_cancel'] = 'Отмена';
