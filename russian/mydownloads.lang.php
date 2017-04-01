@@ -5,7 +5,7 @@
  *	 Author: Diogo Parrinha
  *   Copyright: © 2009-2010 Diogo Parrinha
  *   
- *   !!!!!!!!!!!TRANSLATION IS NOT READY YET!!!!!!!!!!!          80% done
+ *   !!!!!!!!!!!TRANSLATION IS NOT READY YET!!!!!!!!!!!          95% done
  *
  *   Website: http://www.mybb-plugins.com
  *
