@@ -22,13 +22,13 @@
 * By downloading/installing this module you agree with the conditions stated above.
 ****************************************************************************/
 
-$l['mydownloads_filetype'] = "Filetype:";
-$l['mydownloads_status_type'] = "<strong>Status:</strong>";
-$l['mydownloads_active'] = 'Public';
-$l['mydownloads_suspended'] = "<font color=\"red\">Suspended</font>";
-$l['mydownloads_download_is_suspended'] = "This download has been suspended and is only visible to its author and the site staff. ";
-$l['mydownloads_suspended2'] = "<font color=\"red\"(Suspended)</font>";
-$l['mydownloads_return'] = "Return";
+$l['mydownloads_filetype'] = "Тип файла:";
+$l['mydownloads_status_type'] = "<strong>Статус:</strong>";
+$l['mydownloads_active'] = 'Публичный';
+$l['mydownloads_suspended'] = "<font color=\"red\">Заблокирован</font>";
+$l['mydownloads_download_is_suspended'] = "Этот файл был заблокирован, и теперь доступ к нему имеют только автор и администрация сайта. ";
+$l['mydownloads_suspended2'] = "<font color=\"red\"(Заблокирован)</font>";
+$l['mydownloads_return'] = "Вернуться";
 $l['myalerts_setting_mydownloads_new_comment'] = 'Получать уведомление, когда кто-либо комментирует загруженный вами файл?';
 $l['mydownloads'] = 'Моды &amp; Загрузки';
 $l['mydownloads_add'] = 'Добавить';
