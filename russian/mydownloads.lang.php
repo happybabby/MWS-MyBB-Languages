@@ -22,6 +22,7 @@
 * By downloading/installing this module you agree with the conditions stated above.
 ****************************************************************************/
 
+$l['mydownloads_myprofile'] = "Мой профиль";
 $l['mydownloads_filetype'] = "Тип файла:";
 $l['mydownloads_status_type'] = "<strong>Статус:</strong>";
 $l['mydownloads_active'] = 'Публичный';
