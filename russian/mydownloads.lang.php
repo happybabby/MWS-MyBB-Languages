@@ -27,7 +27,7 @@ $l['mydownloads_filetype'] = "Тип файла:";
 $l['mydownloads_status_type'] = "<strong>Статус:</strong>";
 $l['mydownloads_active'] = 'Публичный';
 $l['mydownloads_suspended'] = "<font color=\"red\">Заблокирован</font>";
-$l['mydownloads_download_is_suspended'] = "Этот файл был заблокирован, и теперь доступ к нему имеют только автор и администрация сайта.";
+$l['mydownloads_download_is_suspended'] = "This download has been suspended and is only visible to its author and the site staff.<br/>This download is either suspended temporarily for investigation or permanently due to violating the <a style=\"text-decoration:underline;\" href=\"https://modworkshop.net/showthread.php?tid=6567\">rules</a>.<br/>Should you wish to contact the staff about it or if your download has been updated to follow the rules you can send an \"Unsuspend Application\" <a style=\"text-decoration:underline;\"  href=\"https://modworkshop.net/forumdisplay.php?fid=66\">here</a>.";
 $l['mydownloads_suspended2'] = "<font color=\"red\"(Заблокирован)</font>";
 $l['mydownloads_return'] = "Вернуться";
 $l['myalerts_setting_mydownloads_new_comment'] = 'Получать уведомление, когда кто-либо комментирует загруженный вами файл?';
@@ -146,7 +146,8 @@ $l['mydownloads_flood_check'] = "Вы оставляете комментари�
 $l['mydownloads_forum'] = 'Форум';
 $l['mydownloads_four_stars'] = "3 звезды из 5";
 $l['mydownloads_go_to_all_downloads'] = 'Перейти в раздел "все загрузки"';
-$l['mydownloads_guidelines'] = "Это руководства! BB Code is [b]allowed[/b].";
+$l['mydownloads_guidelines'] = "By pressing submit you confirm that your upload follows these rules.[list=1][*]Do not upload someone else's work. If you do not have permission from the original author to upload their mod, then it will be removed. Seek to request permission from the original author before posting.[*]Do not upload or distribute content not safe for all ages, such as pornographic content.[*]Do not upload cheats.[*]Do not upload mods that grant users DLC or locked content. Piracy is not allowed.[*]Do not upload mods that alter the experience of other players against their will.[*]Do not \"bump\" your mods without making any changes. If you make changes, please document them in the changelog.[*]Do not upload mods that intentionally impact other mods in malicious way.[*]Do not upload malicious mods.[*]Do not upload spam.[/list]The full rules can be found [url=https://modworkshop.net/showthread.php?tid=6567]here[/url].";
+$l['mydownloads_guidelines_header'] = 'Upload Rules';
 $l['mydownloads_header_reports'] = 'Есть {1} непрочитанных жалоб на файлы.';
 $l['mydownloads_hidden'] = 'Скрытый';
 $l['mydownloads_hidden2'] = '(Скрытый)';
