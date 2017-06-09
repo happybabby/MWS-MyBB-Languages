@@ -1,0 +1,103 @@
+<?php
+/**
+ * MyBB 1.6 English Language Pack
+ * Copyright 2010 MyBB Group, All Rights Reserved
+ *
+ * $Id: search.lang.php 5828 2012-05-08 16:06:16Z Tomm $
+ */
+
+$l['nav_search'] = "検索";
+$l['nav_results'] = "検索結果";
+$l['pages_last'] = "最後";
+$l['search'] = "検索";
+$l['search_keyword'] = "キーワードを指定して検索";
+$l['search_username'] = "ユーザ名を指定して検索";
+$l['search_entire_post'] = "全体を検索";
+$l['search_titles_only'] = "件名のみ検索";
+$l['match_username'] = "完全に一致する名前のみ検索";
+$l['search_forums'] = "フォーラムを指定して検索";
+$l['search_all_forums'] = "返信受付中のすべてのフォーラムを検索";
+$l['search_options'] = "検索オプション";
+$l['threads_at_least'] = "返信数が最低で";
+$l['threads_at_most'] = "返信数が最大で";
+$l['find_anydate'] = "投稿日に関わらずすべて検索";
+$l['find_yesterday'] = "検索対象は投稿日が昨日";
+$l['find_lastweek'] = "検索対象は投稿日が1週間前";
+$l['find_2weeks'] = "検索対象は投稿日が2週間前";
+$l['find_month'] = "検索対象は投稿日が1か月前";
+$l['find_3months'] = "検索対象は投稿日が3か月前";
+$l['find_6months'] = "検索対象は投稿日が6か月前";
+$l['find_year'] = "検索対象は投稿日が1年前";
+$l['and_newer'] = "以降";
+$l['and_older'] = "以前";
+$l['sorting_options'] = "並び順の指定";
+$l['sort_lastpost'] = "最新投稿日で並べ替え";
+$l['sort_author'] = "投稿者名で並べ替え";
+$l['sort_forum'] = "フォーラム名で並べ替え";
+$l['sort_in'] = "を";
+$l['sort_asc'] = "昇順";
+$l['sort_desc'] = "降順";
+$l['sort_order'] = "に表示";
+$l['asc'] = "昇順";
+$l['desc'] = "降順";
+$l['display_options'] = "表示オプション";
+$l['show_results_as'] = "検索結果を";
+$l['show_results_threads'] = "スレッドの一覧として表示";
+$l['show_results_posts'] = "記事の一覧として表示";
+$l['search_results'] = "検索結果";
+$l['post'] = "記事";
+$l['author'] = "投稿者";
+$l['forum'] = "フォーラム";
+$l['replies'] = "返信数";
+$l['views'] = "閲覧数";
+$l['posted'] = "投稿日時";
+$l['thread'] = "スレッド";
+$l['lastpost'] = "最新投稿";
+$l['post_thread'] = "スレッド:";
+$l['post_subject'] = "記事:";
+$l['replies2'] = "のスレッドを検索";
+$l['selectall'] = "すべてを検索しますか？";
+$l['any_prefix'] = "プリフィックスに関わらずスレッドを検索";
+$l['no_prefix'] = "プリフィックスなし";
+$l['inline_thread_moderation'] = "モデレータ用クイックツール:";
+$l['close_threads'] = "スレッドを締め切る";
+$l['open_threads'] = "スレッドを返信受付中にする";
+$l['stick_threads'] = "スレッドを固定";
+$l['unstick_threads'] = "スレッドの固定を解除";
+$l['delete_threads'] = "スレッドを削除";
+$l['move_threads'] = "スレッドを移動";
+$l['approve_threads'] = "スレッドを承認";
+$l['unapprove_threads'] = "スレッドを却下";
+$l['inline_delete_posts'] = "記事を削除";
+$l['inline_merge_posts'] = "記事をマージ";
+$l['inline_split_posts'] = "記事を分割";
+$l['inline_approve_posts'] = "記事を承認";
+$l['inline_unapprove_posts'] = "記事を却下";
+$l['inline_post_moderation'] = "モデレータクイックツール:";
+$l['inline_go'] = "実行";
+$l['clear'] = "選択解除";
+$l['icon_dot'] = "投稿したスレッド";
+$l['icon_new'] = "新着記事";
+$l['icon_hot'] = "人気スレッド";
+$l['icon_lock'] = "締め切られたスレッド";
+$l['attachment_count'] = "このスレッドには1個の添付ファイルがあります。";
+$l['attachment_count_multiple'] = "このスレッドには{1}個の添付ファイルがあります。";
+$l['goto_first_unread'] = "最初の未読記事を読む";
+$l['page_selected'] = "検索結果のうちこのページ上にある<strong>{1}</strong>件を選択中です。";
+$l['all_selected'] = "すべての検索結果 (<strong>{1}件</strong>) を選択中です。";
+$l['select_all'] = "すべての検索結果 (<strong>{1}</strong>件) を選択";
+$l['clear_selection'] = "選択を解除";
+$l['results'] = "を検索対象とする";
+$l['mod_options'] = "モデレータオプション";
+$l['find_all'] = "すべて";
+$l['find_only_approved'] = "承認されたもののみ";
+$l['find_only_unapproved'] = "却下されたもののみ";
+$l['redirect_searchresults'] = "検索を実行しました。検索結果のページに移動します。";
+$l['error_minsearchlength'] = "検索条件に短すぎるキーワード含まれています。キーワードは最低{1}文字以上にしてください。フレーズとして検索したい場合には、ダブルクォーテーションで括ってください。例えば \"The quick brown fox jumps over the lazy dog\" のように指定してください。";
+$l['error_nosearchresults'] = "指定された検索条件に該当するものが見つかりませんでした。検索条件を見直してもう一度お試しください。";
+$l['error_no_search_support'] = "このデータベースエンジンは検索機能をサポートしていません。";
+$l['error_nosearchterms'] = "検索語が入力されていません。検索には、最低でもキーワードまたはユーザ名の指定が必要です。";
+$l['error_searchflooding_1'] = "検索は1秒間に1回までと制限されています。もう1秒待ってから再度お試しください。";
+$l['error_searchflooding'] = "検索は{1}秒間に1回までと制限されています。もう{2}病待ってから再度お試しください。";
+$l['error_invalidsearch'] = "検索条件が間違っています。戻ってもう一度お試しください。";
+?>
