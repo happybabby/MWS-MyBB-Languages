@@ -1,70 +1,79 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: memberlist.lang.php 5828 2012-05-08 16:06:16Z Tomm $
+ * MyBB 1.8 English Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
  */
 
-$l['nav_memberlist'] = "メンバーリスト";
-$l['memberlist_disabled'] = "管理者が無効に設定しているため、メンバーリストはご利用になれません。";
-$l['member_list'] = "メンバーリスト";
-$l['avatar'] = "アバター";
-$l['username'] = "ユーザ名";
-$l['joined'] = "登録日";
-$l['lastvisit'] = "最後のログイン";
-$l['posts'] = "投稿数";
-$l['referrals'] = "紹介者";
-$l['search_members'] = "メンバーリストを検索";
-$l['website'] = "Webサイト";
-$l['sort_by'] = "並べ替え";
-$l['contains'] = "次の語を含む:";
-$l['sort_by_username'] = "ユーザ名で並べ替え";
-$l['sort_by_regdate'] = "登録日で並べ替え";
-$l['sort_by_lastvisit'] = "最後のログインで並べ替え";
-$l['sort_by_posts'] = "投稿数で並べ替え";
-$l['sort_by_referrals'] = "紹介者で並べ替え";
-$l['order_asc'] = "昇順";
-$l['order_desc'] = "降順";
-$l['forumteam'] = "フォーラムチームを表示";
-$l['advanced_search'] = "高度な検索";
-$l['search_member_list'] = "メンバーリストを検索";
-$l['search_criteria'] = "検索条件";
-$l['begins_with'] = "次の語で始まる";
-$l['username_contains'] = "次の語を含む";
-$l['search_website'] = "WebサイトURL";
-$l['search_aim'] = "AIMスクリーンネーム";
-$l['search_msn'] = "MSN ID";
-$l['search_yahoo'] = "Yahoo! ID";
-$l['search_icq'] = "ICQナンバー";
-$l['search_options'] = "検索オプション";
-$l['per_page'] = "1ページに表示する数";
-$l['search'] = "検索";
-$l['error_no_members'] = "<p>検索条件に一致するメンバーが見つかりませんでした。</p><p>検索条件を変えて、お試しください。</p>";
-$l['a'] = "A";
-$l['b'] = "B";
-$l['c'] = "C";
-$l['d'] = "D";
-$l['e'] = "E";
-$l['f'] = "F";
-$l['g'] = "G";
-$l['h'] = "H";
-$l['i'] = "I";
-$l['j'] = "J";
-$l['k'] = "K";
-$l['l'] = "L";
-$l['m'] = "M";
-$l['n'] = "N";
-$l['o'] = "O";
-$l['p'] = "P";
-$l['q'] = "Q";
-$l['r'] = "R";
-$l['s'] = "S";
-$l['t'] = "T";
-$l['u'] = "U";
-$l['v'] = "V";
-$l['w'] = "W";
-$l['x'] = "X";
-$l['y'] = "Y";
-$l['z'] = "Z";
-?>
+$l['nav_memberlist'] = "Member List";
+
+$l['memberlist_disabled'] = "The member list functionality has been disabled by the Administrator.";
+
+$l['member_list'] = "Member List";
+$l['avatar']  ="Avatar";
+$l['username'] = "Username";
+$l['joined'] = "Joined";
+$l['lastvisit'] = "Last Visit";
+$l['posts'] = "Post Count";
+$l['threads'] = "Thread Count";
+$l['referrals'] = "Referrals";
+$l['search_members'] = "Search Member List";
+$l['website'] = "Website";
+$l['sort_by'] = "Sort by";
+$l['contains'] = "Contains:";
+$l['sort_by_username'] = "Sort by: Username";
+$l['sort_by_regdate'] = "Sort by: Registration date";
+$l['sort_by_lastvisit'] = "Sort by: Last visit";
+$l['sort_by_posts'] = "Sort by: Post count";
+$l['sort_by_threads'] = "Sort by: Thread count";
+$l['sort_by_referrals'] = "Sort by: Members referred";
+$l['order_asc'] = "ascending order";
+$l['order_desc'] = "descending order";
+$l['asc'] = "asc";
+$l['desc'] = "desc";
+$l['forumteam'] = "Show Forum Team";
+$l['advanced_search'] = "Advanced Search";
+$l['nav_memberlist_search'] = "Search";
+$l['search_member_list'] = "Search Member List";
+$l['search_criteria'] = "Search Criteria";
+$l['begins_with'] = "begins with";
+$l['username_contains'] = "contains";
+$l['search_website'] = "Website URL";
+$l['search_aim'] = "AIM Screen Name";
+$l['search_skype'] = "Skype Address";
+$l['search_google'] = "Google Hangouts Address";
+$l['search_yahoo'] = "Yahoo! Messenger Screen Name";
+$l['search_icq'] = "ICQ Number";
+$l['search_options'] = "Search Options";
+$l['per_page'] = "Results Per Page";
+$l['search'] = "Search";
+
+$l['error_no_members'] = "<p>There were no members found with the search criteria you entered.</p><p>Please enter a different search term and try again.</p>";
+
+$l['a'] = 'A';
+$l['b'] = 'B';
+$l['c'] = 'C';
+$l['d'] = 'D';
+$l['e'] = 'E';
+$l['f'] = 'F';
+$l['g'] = 'G';
+$l['h'] = 'H';
+$l['i'] = 'I';
+$l['j'] = 'J';
+$l['k'] = 'K';
+$l['l'] = 'L';
+$l['m'] = 'M';
+$l['n'] = 'N';
+$l['o'] = 'O';
+$l['p'] = 'P';
+$l['q'] = 'Q';
+$l['r'] = 'R';
+$l['s'] = 'S';
+$l['t'] = 'T';
+$l['u'] = 'U';
+$l['v'] = 'V';
+$l['w'] = 'W';
+$l['x'] = 'X';
+$l['y'] = 'Y';
+$l['z'] = 'Z';
+

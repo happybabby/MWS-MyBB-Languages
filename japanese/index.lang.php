@@ -1,43 +1,40 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: index.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.8 English Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
  */
 
-$l['boardstats'] = "掲示板の統計";
-$l['new_posts'] = "新着記事のあるフォーラム";
-$l['no_new_posts'] = "新着記事のないフォーラム";
-$l['forum_locked'] = "締め切られているフォーラム";
-$l['forum_unapproved_posts_count'] = "拒否された記事が{1}個あります。";
-$l['forum_unapproved_post_count'] = "拒否された記事が1個あります。";
-$l['forum_unapproved_threads_count'] = "拒否されたスレッドが{1}個あります。";
-$l['forum_unapproved_thread_count'] = "拒否されたスレッドが1個あります。";
-$l['markread'] = "すべてのフォーラムを既読にする";
-$l['forumteam'] = "フォーラムチーム";
-$l['forumstats'] = "フォーラムの統計";
-$l['todays_birthdays'] = "今日が誕生日";
-$l['birthdayhidden'] = "非表示";
-$l['quick_login'] = "クイックログイン:";
-$l['index_logout'] = "ログアウト";
-$l['private_messages'] = "プライベートメッセージ";
-$l['pms_new'] = "前回のログアウト後、{1}通の新しいメッセージが届いています。";
-$l['pms_unread_total'] = "(フォルダ全体で{1}通の未読メッセージと合計{2}通のメッセージがあります。)";
-$l['stats_posts_threads'] = "メンバー全体で{2}個のスレッドに合計{1}個の記事を投稿しました。";
-$l['stats_numusers'] = "登録されているメンバーは{1}名です。";
-$l['stats_newestuser'] = "最新の登録メンバー: <b>{1}</b>";
-$l['stats_mostonline'] = "同時オンラインの最大数は、{2}{3}の{1}名";
-$l['whos_online'] = "オンラインユーザ";
-$l['complete_list'] = "全員を表示";
-$l['online_online_plural'] = "ユーザ";
-$l['online_online_singular'] = "ユーザ";
-$l['online_member_plural'] = "登録メンバ";
-$l['online_member_singular'] = "登録メンバ";
-$l['online_anon_plural'] = "は";
-$l['online_anon_singular'] = "は";
-$l['online_guest_plural'] = "ゲスト";
-$l['online_guest_singular'] = "ゲスト";
-$l['online_note'] = "過去{3}分間に{1}{2}がアクティブ ({5}{4}人中、非表示が{6}人、{9}が{8}人)";
-$l['subforums'] = "<strong>サブフォーラム:</strong>";
-?>
+$l['boardstats'] = "Board Statistics";
+$l['new_posts'] = "Forum Contains New Posts";
+$l['no_new_posts'] = "Forum Contains No New Posts";
+$l['forum_locked'] = "Forum is Locked";
+$l['forum_unapproved_posts_count'] = "There are currently {1} unapproved posts in this forum.";
+$l['forum_unapproved_post_count'] = "There is currently 1 unapproved post in this forum.";
+$l['forum_unapproved_threads_count'] = "There is currently {1} unapproved threads in this forum.";
+$l['forum_unapproved_thread_count'] = "There is currently 1 unapproved thread in this forum.";
+$l['forumteam'] = "Forum Team";
+$l['forumstats'] = "Forum Statistics";
+$l['todays_birthdays'] = "Today's Birthdays";
+$l['birthdayhidden'] = "Hidden";
+$l['quick_login'] = "Quick Login:";
+$l['index_logout'] = "Log Out";
+$l['private_messages'] = "Private Messages";
+$l['pms_new'] = "You have {1} new messages since your last visit.";
+$l['pms_unread_total'] = "(You have {1} unread messages and {2} total messages in all of your folders.)";
+$l['stats_posts_threads'] = "Our members have made a total of {1} posts in {2} threads.";
+$l['stats_numusers'] = "We currently have {1} members registered.";
+$l['stats_newestuser'] = "Please welcome our newest member, <b>{1}</b>";
+$l['stats_mostonline'] = "The most users online at one time was {1} on {2} at {3}";
+$l['whos_online'] = "Who's Online";
+$l['complete_list'] = "Complete List";
+$l['online_online_plural'] = "users";
+$l['online_online_singular'] = "user";
+$l['online_member_plural'] = "members";
+$l['online_member_singular'] = "member";
+$l['online_anon_plural'] = "are";
+$l['online_anon_singular'] = "is";
+$l['online_guest_plural'] = "guests";
+$l['online_guest_singular'] = "guest";
+$l['online_note'] = "{1} {2} active in the past {3} minutes ({4} {5}, {6} of whom {7} invisible, and {8} {9}).";
+$l['subforums'] = "Sub Forums:";

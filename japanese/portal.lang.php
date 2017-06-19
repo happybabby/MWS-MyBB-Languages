@@ -1,52 +1,52 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: portal.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * MyBB 1.8 English Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
  */
 
-$l['nav_portal'] = "ポータル";
-$l['posted_by'] = "投稿者:";
-$l['replies'] = "返信数";
-$l['no_replies'] = "返信はありません";
-$l['latest_threads'] = "最新のスレッド";
-$l['latest_threads_replies'] = "返信数:";
-$l['latest_threads_views'] = "閲覧数:";
-$l['latest_threads_lastpost'] = "最後の投稿者:";
-$l['private_messages'] = "プライベートメッセージ";
-$l['pms_received_new'] = "{1}の未読メッセージは<b>{2}</b>通です。";
-$l['pms_unread'] = "未読メッセージ";
-$l['pms_total'] = "全メッセージ";
-$l['search_forums'] = "フォーラムを検索";
-$l['advanced_search'] = "高度な検索";
-$l['forum_stats'] = "フォーラム統計";
-$l['num_members'] = "メンバー数:";
-$l['latest_member'] = "最新のメンバー:";
-$l['num_threads'] = "フォーラムのスレッド数:";
-$l['num_posts'] = "フォーラムの記事数:";
-$l['full_stats'] = "詳しい統計";
-$l['welcome'] = "{1}";
-$l['guest'] = "ゲスト";
-$l['guest_welcome_registration'] = "投稿の前に<a href=\"{1}\">登録</a>してください。";
-$l['username'] = "ユーザ名";
-$l['password'] = "パスワード";
-$l['login'] = "ログイン";
-$l['member_welcome_lastvisit'] = "最後のログイン:";
-$l['since_then'] = "前回のログアウト後の投稿は";
-$l['new_announcements'] = "新しい告知: {1}";
-$l['new_announcement'] = "新しい告知: 1";
-$l['new_threads'] = "新規スレッド: {1}";
-$l['new_thread'] = "新規スレッド: 1";
-$l['new_posts'] = "新しく投稿された記事: {1}";
-$l['new_post'] = "新しく投稿された記事: 1";
-$l['view_new'] = "新しい記事を読む";
-$l['view_todays'] = "今日投稿された記事を読む";
-$l['online'] = "オンラインユーザ";
-$l['online_user'] = "現在のオンラインユーザは1人です。";
-$l['online_users'] = "現在のオンラインユーザは<b>{1}</b>人です。";
-$l['online_counts'] = "メンバー<b>{1}</b>人 | ゲスト<b>{2}</b>人";
-$l['no_one'] = "誰もいません";
-$l['print_this_item'] = "この項目を印刷";
-$l['send_to_friend'] = "この項目を友人に送信する";
-?>
+$l['nav_portal'] = "Portal";
+$l['posted_by'] = "Posted by:";
+$l['forum'] = "Forum:";
+$l['replies'] = "Replies";
+$l['no_replies'] = "No Replies";
+$l['latest_threads'] = "Latest Threads";
+$l['latest_threads_replies'] = "Replies:";
+$l['latest_threads_views'] = "Views:";
+$l['latest_threads_lastpost'] = "Last Post:";
+$l['private_messages'] = "Private Messages";
+$l['pms_received_new'] = "{1}, you have <b>{2}</b> unread message(s).";
+$l['pms_unread'] = "Unread Messages";
+$l['pms_total'] = "Total Messages";
+$l['search_forums'] = "Search Forums";
+$l['advanced_search'] = "Advanced Search";
+$l['forum_stats'] = "Forum Statistics";
+$l['num_members'] = "Members:";
+$l['latest_member'] = "Latest member:";
+$l['num_threads'] = "Forum threads:";
+$l['num_posts'] = "Forum posts:";
+$l['full_stats'] = "Full Statistics";
+$l['welcome'] = "Welcome, {1}";
+$l['guest'] = "Guest";
+$l['guest_welcome_registration'] = "You have to <a href=\"{1}\">register</a> before you can post on our site.";
+$l['username'] = "Username";
+$l['password'] = "Password";
+$l['login'] = "Login!";
+$l['member_welcome_lastvisit'] = "Last visit:";
+$l['since_then'] = "Since then, there have been:";
+$l['new_announcements'] = "{1} new announcements";
+$l['new_announcement'] = "1 new announcement";
+$l['new_threads'] = "{1} new threads";
+$l['new_thread'] = "1 new thread";
+$l['new_posts'] = "{1} new posts";
+$l['new_post'] = "1 new post";
+$l['view_new'] = "View New Posts";
+$l['view_todays'] = "View Today's Posts";
+$l['online'] = "Online Users";
+$l['online_user'] = "There is currently 1 user online";
+$l['online_users'] = "There are currently <b>{1}</b> online users.";
+$l['online_counts'] = "<b>{1}</b> Member(s) | <b>{2}</b> Guest(s)";
+$l['print_this_item'] = "Print this item";
+$l['send_to_friend'] = "Send this item to a friend";
+$l['latest_announcements'] = "Latest Announcements";
+$l['portal_disabled'] = "You cannot use the portal functionality as it has been disabled by the Administrator.";
