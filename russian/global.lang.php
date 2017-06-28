@@ -269,7 +269,7 @@ $l['postbit_warning_level'] = 'Предупреждений:';
 $l['postbit_warn'] = 'Предупредить автора за это сообщение';
 $l['postbit_purgespammer'] = 'Удалить спамера';
 
-$l['postbit_button_reputation_add'] = 'Рэйтинг';
+$l['postbit_button_reputation_add'] = 'Рейтинг';
 $l['postbit_button_website'] = 'Website';
 $l['postbit_button_email'] = 'E-Mail';
 $l['postbit_button_find'] = 'Найти';
