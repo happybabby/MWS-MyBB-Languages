@@ -9,21 +9,16 @@ $l['nav_helpdocs'] = "Help Documents";
 $l['nav_smilies'] = "Smilie Listing";
 $l['nav_syndication'] = "Latest Thread Syndication (RSS)";
 
-$l['aol_im'] = "AOL IM";
 $l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo IM";
 $l['skype_center'] = "Skype Center";
 $l['chat_on_skype'] = "Chat with {1} on Skype";
 $l['call_on_skype'] = "Call {1} on Skype";
 $l['yahoo_center'] = "Yahoo! Center";
-$l['aim_center'] = "AOL IM Center";
 
-$l['download_aim'] = "Download AIM";
-$l['aim_remote'] = "AIM Remote";
 $l['send_me_instant'] = "Send me an Instant Message";
 $l['add_me_buddy_list'] = "Add me to Your Buddy List";
 $l['add_remote_to_page'] = "Add Remote to Your Page";
-$l['download_aol_im'] = "Download AOL Instant Messenger";
 
 $l['buddy_list'] = "Buddy List";
 $l['online'] = "Online";
@@ -69,7 +64,7 @@ $l['error_invalid_limit'] = "The feed item limit you entered is invalid. Please 
 
 $l['syndication'] = "Latest Thread Syndication";
 $l['syndication_generated_url'] = "Your Generated Syndication URL:";
-$l['syndication_note'] = "Below you can generate links to specific RSS syndication feeds. Links can be generated for all forums, per forum, or for a specific number of forums. You will then be presented with a link which you can copy in to an RSS reader. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\">What is RSS?</a></i>";
+$l['syndication_note'] = "Below you can generate links to specific RSS syndication feeds. Links can be generated for all forums, per forum, or for a specific number of forums. You will then be presented with a link which you can copy in to an RSS reader. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">What is RSS?</a></i>";
 $l['syndication_forum'] = "Forum to Syndicate:";
 $l['syndication_forum_desc'] = "Please select a forum from the right. Use the CTRL key to select multiple forums.";
 $l['syndication_version'] = "Feed Version:";

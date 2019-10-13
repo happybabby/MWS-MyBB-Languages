@@ -48,6 +48,7 @@ $l['you_voted'] = "* You voted for this item.";
 $l['poll_closed'] = "This poll is closed.";
 $l['poll_closes'] = "This poll will close on: {1}";
 $l['already_voted'] = "You have already voted in this poll.";
+$l['no_voting_permission'] = "You do not have permission to vote in this poll.";
 $l['undo_vote'] = "Undo vote";
 $l['quick_reply'] = "Quick Reply";
 $l['message_note'] = "Type your reply to this message here.";
@@ -106,4 +107,4 @@ $l['quick_delete_success'] = 'The post was deleted successfully.';
 $l['quick_delete_thread_success'] = 'The thread was deleted successfully.';
 $l['quick_restore_error'] = 'There was an error restoring your reply:';
 $l['quick_restore_success'] = 'The post was restored successfully.';
-
+$l['post_deleted_error'] = 'You can not perform this action to a deleted post.';
