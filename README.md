@@ -5,7 +5,7 @@ This is the repository for languages used by modworkshop.net
 If you wish to add your language, that is possible!
 
 First, search and download your language here: https://community.mybb.com/mods.php?action=browse&category=19 
-Then, copy paste the files that don't exist in the language folder into that folder and translate those (For example mydownloads.php).
+Then, copy paste the files that don't exist in the language folder into that folder and translate those (For example mydownloads.lang.php). Speaking of mydownloads.lang.php, do not translate the rules.
 
 Have fun!
 
